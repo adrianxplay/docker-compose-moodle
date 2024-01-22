@@ -31,3 +31,4 @@ services:
       - ./src/moodle:/var/www/html/moodle
       - ./src/moodle_data:/var/www/html/moodle_data
       - ./src/info.php:/var/www/html/info.php
+      - ./php/conf.d:/usr/local/etc/php/conf.d
